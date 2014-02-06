@@ -1,0 +1,273 @@
+2014/02/02 13:41:09 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 13:47:29 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 13:47:37 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 13:47:38 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 13:47:40 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 19:18:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myhouse.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
+2014/02/02 14:39:06 [error] [php] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found (C:\wamp\www\framework\validators\CRegularExpressionValidator.php:53)
+Stack trace:
+#0 C:\wamp\www\framework\base\CModel.php(159): CRegularExpressionValidator->validate()
+#1 C:\wamp\www\myHouse\protected\modules\user\controllers\AdminController.php(117): Profile->validate()
+#2 C:\wamp\www\framework\web\actions\CInlineAction.php(49): AdminController->actionUpdate()
+#3 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#8 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\wamp\www\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#11 C:\wamp\www\framework\web\CWebApplication.php(282): AdminController->run()
+#12 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\wamp\www\myHouse\index.php(13): CWebApplication->run()
+REQUEST_URI=/myHouse/index.php/user/admin/update/id/1
+in C:\wamp\www\myHouse\protected\modules\user\controllers\AdminController.php (117)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:43:41 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:43:46 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:43:49 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:44:00 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:44:06 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:44:10 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:44:12 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:44:18 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:44:21 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:44:31 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:44:35 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:46:05 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:49:45 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:49:54 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:50:01 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:50:05 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:50:17 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:50:20 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:50:24 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:50:27 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:50:33 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:50:42 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:50:44 [error] [php] mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() (C:\wamp\www\myHouse\protected\modules\user\UserModule.php:226)
+Stack trace:
+#0 C:\wamp\www\framework\web\actions\CInlineAction.php(49): RegistrationController->actionRegistration()
+#1 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\framework\web\CController.php(286): RegistrationController->runAction()
+#3 C:\wamp\www\framework\web\CController.php(265): RegistrationController->runActionWithFilters()
+#4 C:\wamp\www\framework\web\CWebApplication.php(282): RegistrationController->run()
+#5 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\wamp\www\myHouse\index.php(13): CWebApplication->run()
+REQUEST_URI=/myHouse/index.php/user/registration
+in C:\wamp\www\myHouse\protected\modules\user\UserModule.php (226)
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (54)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:56:18 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:56:32 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:56:47 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 14:56:49 [error] [php] mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() (C:\wamp\www\myHouse\protected\modules\user\UserModule.php:226)
+Stack trace:
+#0 C:\wamp\www\framework\web\actions\CInlineAction.php(49): RegistrationController->actionRegistration()
+#1 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\framework\web\CController.php(286): RegistrationController->runAction()
+#3 C:\wamp\www\framework\web\CController.php(265): RegistrationController->runActionWithFilters()
+#4 C:\wamp\www\framework\web\CWebApplication.php(282): RegistrationController->run()
+#5 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\wamp\www\myHouse\index.php(13): CWebApplication->run()
+REQUEST_URI=/myHouse/index.php/user/registration
+in C:\wamp\www\myHouse\protected\modules\user\UserModule.php (226)
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (54)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 15:17:16 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 15:17:18 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 15:17:20 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 15:17:23 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 15:17:25 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 15:17:30 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 15:17:34 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 15:17:36 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 15:17:37 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 15:17:47 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 15:18:00 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/02 15:18:02 [error] [php] Invalid argument supplied for foreach() (C:\wamp\www\myHouse\protected\models\Email.php:21)
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\framework\web\CController.php(286): RegistrationController->runAction()
+#2 C:\wamp\www\framework\web\CController.php(265): RegistrationController->runActionWithFilters()
+#3 C:\wamp\www\framework\web\CWebApplication.php(282): RegistrationController->run()
+#4 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\myHouse\index.php(13): CWebApplication->run()
+REQUEST_URI=/myHouse/index.php/user/registration
+in C:\wamp\www\myHouse\protected\models\Email.php (21)
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (54)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:31:43 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:31:44 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:31:44 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:31:47 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:31:49 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:31:55 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:32:02 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:32:08 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:32:10 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:32:17 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:32:20 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:32:29 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:32:33 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:32:33 [error] [php] Invalid argument supplied for foreach() (C:\wamp\www\myHouse\protected\models\Email.php:22)
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\framework\web\CController.php(286): RegistrationController->runAction()
+#2 C:\wamp\www\framework\web\CController.php(265): RegistrationController->runActionWithFilters()
+#3 C:\wamp\www\framework\web\CWebApplication.php(282): RegistrationController->run()
+#4 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\myHouse\index.php(13): CWebApplication->run()
+REQUEST_URI=/myHouse/index.php/user/registration
+in C:\wamp\www\myHouse\protected\models\Email.php (22)
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (54)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:37:25 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:37:46 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:37:50 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:37:56 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:38:07 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:42:38 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:43:07 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:43:09 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:43:14 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:43:20 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:43:23 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
+2014/02/05 17:43:25 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\myHouse\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\myHouse\index.php (13)
